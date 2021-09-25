@@ -1,0 +1,60 @@
+<resources>
+    <!-- other-->
+    <string name="app_name">sensorApp</string>
+    <string name="main_activity_title">Sensor App</string>
+    <string name="Unavailable_sensors_message">Unavailable sensors will have their buttons disabled</string>
+
+    <!-- title text-->
+    <string name="proximity_title">Proximity Sensor</string>
+    <string name="accelerometer_title">Accelerometer</string>
+    <string name="light_title">Ambient Light Sensor</string>
+    <string name="GPS_title">GPS</string>
+    <string name="magnetometer_title">Magnetometer</string>
+    <string name="pressure_title">Pressure Sensor</string>
+    <string name="closeToMe_title">Devices Near Me</string>
+
+    <!-- value text-->
+    <string name="proximity_text">Sensor Value: %1$.2f</string>
+    <string name="accelerometer_x_value">X Value: %1$.2f</string>
+    <string name="accelerometer_y_value">Y Value: %1$.2f</string>
+    <string name="accelerometer_z_value">Z Value: %1$.2f</string>
+    <string name="light_text">Sensor Value: %1$.2f</string>
+    <string name="GPS_lat_value">Latitude: %1$.2f</string>
+    <string name="GPS_long_value">Longitude: %1$.2f</string>
+    <string name="GPS_altitude_value">Altitude: %1$.2f</string>
+    <string name="GPS_bearing_value">Bearing: %1$.2f</string>
+    <string name="GPS_speed_value">Speed: %1$.2f</string>
+    <string name="magnetometer_x_value">X Value: %1$.2f</string>
+    <string name="magnetometer_y_value">Y Value: %1$.2f</string>
+    <string name="magnetometer_z_value">Z Value: %1$.2f</string>
+    <string name="pressure_text">Value: %1$.2f</string>
+
+    <!-- button text-->
+    <string name="proximityBtnText">Proximity Sensor</string>
+    <string name="accelerometerBtnText">Accelerometer</string>
+    <string name="lightBtnText">Ambient Light Sensor</string>
+    <string name="GPSBtnText">GPS</string>
+    <string name="GPSBtnText2">Get Coordinates</string>
+    <string name="magnetometerBtnText">Magnetometer</string>
+    <string name="pressureBtnText">Pressure Sensor</string>
+
+    <!--login text -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+
+    <!-- Close To me -->
+    <string name="ble_not_supported">This phone does not support BluetoothLE!</string>
+    <string name="permission_is_required">Permission is required!</string>
+</resources>
